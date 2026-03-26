@@ -1,0 +1,206 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.screen {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #1d3557; /* Deep blue for brand identity */
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #1d3557;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #457b9d;
+  font-size: 22px;
+}
+
+button {
+  margin: 5px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Grade Selection Buttons */
+.grade-selection button {
+  background-color: #1d3557;
+  color: white;
+  margin: 5px;
+}
+
+/* Main Action Buttons */
+.buttons button, .booking-button {
+  background-color: #50c878;
+  color: white;
+  margin: 10px 0;
+  padding: 12px 25px;
+}
+
+/* Lesson Text Area */
+.lesson-text {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #eaf4f4;
+  text-align: left;
+  border-radius: 8px;
+}
+
+/* Video and Audio containers */
+.media-container {
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.lesson-card {
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: transform 0.1s ease-in-out;
+}
+
+.lesson-card:hover {
+  transform: scale(1.02);
+}
+
+.booking-card {
+  border-left: 5px solid #50c878;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-status-pending {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.booking-status-accepted {
+  color: #50c878;
+  font-weight: bold;
+}
+
+.booking-status-rejected {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.booking-buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.dashboard-card {
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.1s ease-in-out;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.02);
+}
+
+.lesson-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.lesson-meta {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 12px;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  background-color: #50c878;
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+  border-radius: 8px;
+}
+
+.booking-status {
+  display: inline-block;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.status-pending { background-color: #ff9800; color: #fff; }
+.status-accepted { background-color: #50c878; color: #fff; }
+.status-rejected { background-color: #e63946; color: #fff; }
+.status-completed { background-color: #457b9d; color: #fff; }
+
+.summary-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.summary-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 10px;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.summary-card h2 {
+  margin: 0;
+  color: #1d3557;
+}
+
+.summary-card p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
